@@ -7,7 +7,7 @@
 </head>
 <body>
 
-  <h1>Ciao {{ }}, benvenuto nella HomePage</h1>
+  <h1>Ciao {{ $name }}, benvenuto nella HomePage</h1>
   
 </body>
 </html>
