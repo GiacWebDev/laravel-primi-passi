@@ -17,3 +17,16 @@ Route::get('/', function () {
     $name = 'PipppFranco';
     return view('home', compact('name'));
 });
+
+Route::get('about', function (){
+    $name = 'PipppFranco';
+    return view('about', compact('name'));
+});
+
+Route::get('services', function (){
+    return view('services');
+});
+
+Route::get('contacts', function (){
+    return view('contacts');
+});
